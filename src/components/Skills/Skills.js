@@ -12,14 +12,14 @@ function Skills() {
     const { theme } = useContext(ThemeContext);
 
     const skillBoxStyle = {
-        backgroundColor: theme.secondary,
-        boxShadow: `0px 0px 30px ${theme.primary30}`
+        backgroundColor: "#caac78",
+        boxShadow: `0px 0px 30px ${"#caac78"}`
     }
 
     return (
-        <div id ="skills"className="skills" style={{backgroundColor: theme.secondary}}>
+        <div id ="skills"className="skills" style={{backgroundColor: "#2A2C35"}}>
             <div className="skillsHeader">
-                <h2 style={{color: theme.primary}}>Skills</h2>
+                <h2 style={{color: "#caac78"}}>Skills</h2>
             </div>
             <div className="skillsContainer">
                 <div className="skill--scroll">

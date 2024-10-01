@@ -88,18 +88,18 @@ function Contacts() {
             alignItems: 'center',
             justifyContent: 'center',
             fontSize: '21px',
-            backgroundColor: theme.primary,
-            color: theme.secondary,
+            backgroundColor: "#caac78",
+            color: "#2A2C35",
             transition: '250ms ease-in-out',
             '&:hover': {
                 transform: 'scale(1.1)',
-                color: theme.secondary,
+                color: "#caac78",
                 backgroundColor: theme.tertiary,
             },
         },
         detailsIcon: {
-            backgroundColor: theme.primary,
-            color: theme.secondary,
+            backgroundColor: "#caac78",
+            color: "2A2C35",
             borderRadius: '50%',
             width: '45px',
             height: '45px',
@@ -111,7 +111,7 @@ function Contacts() {
             flexShrink: 0,
             '&:hover': {
                 transform: 'scale(1.1)',
-                color: theme.secondary,
+                color: "#caac78",
                 backgroundColor: theme.tertiary,
             },
         },
@@ -164,10 +164,10 @@ function Contacts() {
         <div
             className='contacts'
             id='contacts'
-            style={{ backgroundColor: theme.secondary }}
+            style={{ backgroundColor: "#2A2C35" }}
         >
             <div className='contacts--container'>
-                <h1 style={{ color: theme.primary }}>Contacts</h1>
+                <h1 style={{ color: "#caac78" }}>Contacts</h1>
                 <div className='contacts-body'>
                     {/* <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
@@ -288,7 +288,7 @@ function Contacts() {
                             <div className={classes.detailsIcon}>
                                 <FiAtSign />
                             </div>
-                            <p style={{ color: theme.tertiary }}>
+                            <p style={{ color: "#caac78" }}>
                                 {contactsData.email}
                             </p>
                         </a>
@@ -299,7 +299,7 @@ function Contacts() {
                             <div className={classes.detailsIcon}>
                                 <FiPhone />
                             </div>
-                            <p style={{ color: theme.tertiary }}>
+                            <p style={{ color: "#caac78" }}>
                                 {contactsData.phone}
                             </p>
                         </a>
@@ -307,7 +307,7 @@ function Contacts() {
                             <div className={classes.detailsIcon}>
                                 <HiOutlineLocationMarker />
                             </div>
-                            <p style={{ color: theme.tertiary }}>
+                            <p style={{ color: "#caac78" }}>
                                 {contactsData.address}
                             </p>
                         </div>

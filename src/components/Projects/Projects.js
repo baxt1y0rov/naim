@@ -25,8 +25,8 @@ function Projects() {
             }
         },
         viewArr : {
-            color: theme.tertiary, 
-            backgroundColor: theme.secondary70,
+            color: "#2A2C78", 
+            backgroundColor: "#caac78",
             width: '40px',
             height: '40px',
             padding: '0.5rem',
@@ -35,8 +35,8 @@ function Projects() {
             cursor: 'pointer',
             transition: 'background-color 0.2s',
             "&:hover": {
-                color: theme.tertiary, 
-                backgroundColor: theme.secondary,
+                color: "#2A2C35", 
+                backgroundColor: "#caac78",
             }
         },
     }));
@@ -46,9 +46,9 @@ function Projects() {
     return (
         <>
             {projectsData.length > 0 && (
-                <div className="projects" id="projects" style={{backgroundColor: theme.secondary}}>
+                <div className="projects" id="projects" style={{backgroundColor: "#2A2C35"}}>
                     <div className="projects--header">
-                        <h1 style={{color: theme.primary}}>Projects</h1>
+                        <h1 style={{color: "#caac78"}}>Projects</h1>
                     </div>
                     <div className="projects--body">
                         <div className="projects--bodyContainer">
@@ -69,12 +69,12 @@ function Projects() {
 
                         {projectsData.length > 3 && (
                             <div className="projects--viewAll">
-                                <Link to="/projects">
+                                {/* <Link to="/projects">
                                     <button className={classes.viewAllBtn}>
                                         View All
                                         <HiArrowRight className={classes.viewArr} />
                                     </button>
-                                </Link>
+                                </Link> */}
                             </div>
                         )}
                     </div>

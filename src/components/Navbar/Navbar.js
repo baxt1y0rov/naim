@@ -32,7 +32,7 @@ function Navbar() {
     const useStyles = makeStyles((t) => ({
         navMenu: {
             fontSize: '2.5rem',
-            color: theme.tertiary,
+            color: "#010101",
             cursor: 'pointer',
             transform: 'translateY(-10px)',
             transition: 'color 0.3s',
@@ -40,7 +40,7 @@ function Navbar() {
             top:"30px",
             right: "30px",
             '&:hover': {
-                color: theme.primary,
+                color: "#010101",
             },
             [t.breakpoints.down('sm')]: {
                 fontSize: '2.5rem',
@@ -56,7 +56,7 @@ function Navbar() {
             fontStyle: ' normal',
             fontWeight: ' normal',
             fontSize: ' 24px',
-            background: theme.secondary,
+            background: "#2A2C35",
             overflow: 'hidden',
             borderTopRightRadius: '40px',
             borderBottomRightRadius: '40px',
@@ -68,7 +68,7 @@ function Navbar() {
             fontSize: '2rem',
             fontWeight: 'bold',
             cursor: 'pointer',
-            color: theme.primary,
+            color: "#caac78",
             position: 'absolute',
             right: 40,
             top: 40,
@@ -84,8 +84,8 @@ function Navbar() {
         drawerItem: {
             margin: '2rem auto',
             borderRadius: '78.8418px',
-            background: theme.secondary,
-            color: theme.primary,
+            background: "#2A2C35",
+            color: "#caac78",
             width: '85%',
             height: '60px',
             display: 'flex',
@@ -94,11 +94,11 @@ function Navbar() {
             padding: '0 30px',
             boxSizing: 'border-box',
             border: '2px solid',
-            borderColor: theme.primary,
+            borderColor: "#caac78",
             transition: 'background-color 0.2s, color 0.2s',
             '&:hover': {
-                background: theme.primary,
-                color: theme.secondary,
+                background: "#caac78",
+                color: "#2A2C35",
             },
             [t.breakpoints.down('sm')]: {
                 width: '100%',
@@ -136,7 +136,7 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div  className='navbar--container'>
-                <h1 style={{ color: theme.secondary }}>
+                <h1 style={{ color: "#caac78"}}>
                     {shortname(headerData.name)}
                 </h1>
 

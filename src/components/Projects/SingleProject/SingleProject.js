@@ -15,14 +15,14 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
             width: 40,
             height: 40,
             borderRadius: 50,
-            border: `2px solid ${theme.tertiary}`,
-            color: theme.tertiary,
+            border: `2px solid ${"#2A2C35"}`,
+            color:"#2A2C35",
             transition: 'all 0.2s',
             '&:hover': {
-                backgroundColor: theme.secondary,
-                color: theme.primary,
+                backgroundColor: "#2A2C35",
+                color: "#caac78",
                 transform: 'scale(1.1)',
-                border: `2px solid ${theme.secondary}`,
+                border: `2px solid ${"#2A2C35"}`,
             },
         },
         icon: {
@@ -39,7 +39,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
             <div
                 key={id}
                 className='singleProject'
-                style={{ backgroundColor: theme.primary400 }}
+                style={{ backgroundColor: "#caac78" }}
             >
                 <div className='projectContent'>
                     <h2
@@ -93,8 +93,8 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                 <p
                     className='project--desc'
                     style={{
-                        background: theme.secondary,
-                        color: theme.tertiary,
+                        background: "#2A2C35",
+                        color: "#caac78",
                     }}
                 >
                     {desc}
@@ -102,8 +102,8 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                 <div
                     className='project--lang'
                     style={{
-                        background: theme.secondary,
-                        color: theme.tertiary80,
+                        background: "#2A2C35",
+                        color: "#caac78",
                     }}
                 >
                     {tags.map((tag, id) => (

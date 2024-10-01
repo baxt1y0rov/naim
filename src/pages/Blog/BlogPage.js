@@ -24,7 +24,7 @@ function BlogPage() {
 
     const useStyles = makeStyles((t) => ({
         search : {
-            color: theme.tertiary, 
+            color: "#caac78", 
             width: '40%',
             height: '2.75rem',
             outline: 'none',
@@ -73,7 +73,7 @@ function BlogPage() {
             <Helmet>
                 <title>{headerData.name} | Blog</title>
             </Helmet>
-            <div className="blogPage--header" style={{backgroundColor: theme.primary}}>
+            <div className="blogPage--header" style={{backgroundColor: "#caac78"}}>
                 <Link to="/">
                     <AiOutlineHome className={classes.home}/>
                 </Link>

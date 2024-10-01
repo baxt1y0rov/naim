@@ -43,7 +43,7 @@ function ProjectPage() {
             },
         },
         home: {
-            color: theme.secondary,
+            color: "2A2C35",
             position: 'absolute',
             top: 25,
             left: 25,
@@ -68,15 +68,15 @@ function ProjectPage() {
     const classes = useStyles();
 
     return (
-        <div className="projectPage" style={{backgroundColor: theme.secondary}}>
+        <div className="projectPage" style={{backgroundColor: "#2A2C35"}}>
             <Helmet>
                 <title>{headerData.name} | Projects</title>
             </Helmet>
-            <div className="projectPage-header" style={{backgroundColor:theme.primary}}>
+            <div className="projectPage-header" style={{backgroundColor:"#2A2C35"}}>
                 <Link to="/">
                         <AiOutlineHome className={classes.home}/>
                 </Link>
-                <h1 style={{color: theme.secondary}}>Projects</h1>
+                <h1 style={{color: "#caac78"}}>Projects</h1>
             </div>
            <div className="projectPage-container">
                <div className="projectPage-search">

@@ -21,7 +21,7 @@ function Landing() {
 
     const useStyles = makeStyles((t) => ({
         resumeBtn: {
-            color: theme.primary,
+            color: "#2A2C35",
             borderRadius: '30px',
             textTransform: 'inherit',
             textDecoration: 'none',
@@ -30,20 +30,20 @@ function Landing() {
             fontWeight: '500',
             height: '50px',
             fontFamily: 'var(--primaryFont)',
-            border: `3px solid ${theme.primary}`,
+            border: `3px solid ${"#2A2C35"}`,
             transition: '100ms ease-out',
             '&:hover': {
-                backgroundColor: theme.tertiary,
-                color: theme.secondary,
-                border: `3px solid ${theme.tertiary}`,
+                backgroundColor: "#2A2C35",
+                color: "#caac78",
+                border: `3px solid ${"#2A2C35"}`,
             },
             [t.breakpoints.down('sm')]: {
                 width: '180px',
             },
         },
         contactBtn: {
-            backgroundColor: theme.primary,
-            color: theme.secondary,
+            backgroundColor: "#2A2C35",
+            color: "#caac78",
             borderRadius: '30px',
             textTransform: 'inherit',
             textDecoration: 'none',
@@ -52,12 +52,12 @@ function Landing() {
             fontSize: '1rem',
             fontWeight: '500',
             fontFamily: 'var(--primaryFont)',
-            border: `3px solid ${theme.primary}`,
+            border: `3px solid ${"#2A2C35"}`,
             transition: '100ms ease-out',
             '&:hover': {
-                backgroundColor: theme.secondary,
-                color: theme.tertiary,
-                border: `3px solid ${theme.tertiary}`,
+                backgroundColor: "#caac78",
+                color: "#2A2C35",
+                border: `3px solid ${"#2A2C35"}`,
             },
             [t.breakpoints.down('sm')]: {
                 display: 'none',
@@ -72,7 +72,7 @@ function Landing() {
             <div className='landing--container'>
                 <div
                     className='landing--container-left'
-                    style={{ backgroundColor: theme.primary }}
+                    style={{ backgroundColor: "#2A2C35" }}
                 >
                     <div className='lcl--content'>
                         {socialsData.linkedIn && (
@@ -83,7 +83,7 @@ function Landing() {
                             >
                                 <FaLinkedin
                                     className='landing--social'
-                                    style={{ color: theme.secondary }}
+                                    style={{ color: "#caac78" }}
                                     aria-label='LinkedIn'
                                 />
                             </a>
@@ -96,7 +96,7 @@ function Landing() {
                             >
                                 <FaGithub
                                     className='landing--social'
-                                    style={{ color: theme.secondary }}
+                                    style={{ color: "#caac78" }}
                                     aria-label='GitHub'
                                 />
                             </a>
@@ -143,7 +143,7 @@ function Landing() {
                     </div>
                 </div>
                 <img
-                    src={headerData.image}
+                    src={"./naim.png"}
                     alt=''
                     className='landing--img'
                     style={{
@@ -153,11 +153,11 @@ function Landing() {
                 />
                 <div
                     className='landing--container-right'
-                    style={{ backgroundColor: theme.secondary }}
+                    style={{ backgroundColor: "#caac78" }}
                 >
                     <div
                         className='lcr--content'
-                        style={{ color: theme.tertiary }}
+                        style={{ color: "#2A2C35" }}
                     >
                         <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>

@@ -31,7 +31,7 @@ function BackToTop() {
     const useStyles = makeStyles(() => ({
         icon: {
             fontSize: '3rem',
-            color: theme.tertiary,
+            color: "#caac78",
         },
     }));
 
