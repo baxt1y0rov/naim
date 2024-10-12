@@ -72,7 +72,13 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
-
+import drum from '../assets/svg/skills/drum.png'
+import guitar from '../assets/svg/skills/guitar.png'
+import doira from '../assets/svg/skills/doira.png'
+import flute from '../assets/svg/skills/flute.png'
+import rubab from '../assets/svg/skills/rubab.png'
+import keyboard from '../assets/svg/skills/piano.png'
+import dutar from '../assets/svg/skills/dutar.png'
 import canva from '../assets/svg/skills/canva.svg'
 
 
@@ -81,12 +87,20 @@ export const skillsImage = (skill) => {
     switch (skillID) {
         case 'gcp':
             return gcp;
-        case 'html':
-            return html;
-        case 'photoshop':
-            return photoshop;
-        case 'docker':
-            return docker;
+        case 'drum':
+            return drum;
+        case 'guitar':
+            return guitar;
+        case 'doira':
+            return doira;
+        case 'flute':
+            return flute;
+        case 'tar':
+            return rubab;
+        case 'keyboard':
+            return keyboard;
+        case 'dutar':
+            return dutar;
         case 'illustrator':
             return illustrator;
         case 'adobe xd':

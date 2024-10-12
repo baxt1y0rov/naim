@@ -6,35 +6,38 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
+import Playlist from './playlist1.jpeg'
+import Playlist2 from './playlist2.jpeg'
+import Playlist3 from './Playlist3.jpg'
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'History Through Movies',
-        projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
-        tags: ['Django', 'HTML' ,'CSS', 'Javascript'],
-        code: 'https://github.com/sreerag-rajan/historythroughmovies',
-        demo: 'https://historythroughmovies.pythonanywhere.com/',
-        image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
+        projectName: 'PEA Playlist',
+        projectDesc: 'Welcome to the Presidential Excellence Award (PEA) playlist! This collection features various activities and performances by students at the Jizzakh Presidential School, showcasing their talents and dedication in different categories.',
+        tags: ['Singing Performanses'],
+        code: 'https://www.youtube.com/@n_AI_m',
+        demo: 'https://www.youtube.com/playlist?list=PLM4b3lmAAgq_YI5NBrQ71iogEkWfa6X7v',
+        image: Playlist
     },
     {
         id: 2,
-        projectName: 'Sportsjam.in Clone',
-        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
-        tags: ['HTML', 'CSS','Javascript'],
-        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
-        demo: 'https://practical-meninsky-36f305.netlify.app/',
-        image: "https://camo.githubusercontent.com/f9fbe30b577cff2fbf09af53fb3c1f12fcc10a771bf9459ed5af10bffab9e38b/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a525f5f63646e384c316759474b3154647171797562672e706e67"
+        projectName: 'My Creativity Music',
+        projectDesc: "Welcome to Naim's Creativity Song Cover Playlist! Dive into a collection of my unique renditions of popular songs across various genres. Each cover showcases my creative approach and musical skills, bringing a fresh perspective to beloved classics and contemporary hits. Enjoy the journey through music and don't forget to like, comment, and subscribe for more covers!",
+        tags: ['Singing Performances'],
+        code: 'https://www.youtube.com/@n_AI_m',
+        demo: 'https://www.youtube.com/playlist?list=PLM4b3lmAAgq_UmXv8wBAwwa_GUGYCtcOQ',
+        image: Playlist2
     },
     {
         id: 3,
-        projectName: 'Educative Clone',
-        projectDesc: 'This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team',
-        tags: ['React', 'Material UI', 'Express', "MongoDB","NodeJS"],
-        code: 'https://github.com/sreerag-rajan/educative-clone',
-        demo: 'https://educative-clone.vercel.app/',
-        image: "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png"
+        projectName: "🎤 My Students' Performances 🎤",
+        projectDesc: 'This playlist showcases the incredible talent of my students from the Presidential School in Jizzakh. Every week, we bring you new musical performances, ranging from vocal covers to instrumental pieces. Whether it’s classical piano, energetic guitar, or heartfelt vocal performances, each track reflects the dedication and passion of these young artists. Join us as we celebrate their growth and creativity in the world of music! 🎶',
+        tags: ['Stay tuned for regular updates and be part of their musical journey!'],
+        code: 'https://www.youtube.com/@n_AI_m',
+        demo: 'https://www.youtube.com/playlist?list=PLM4b3lmAAgq80fKx76UDI3r98ywvzk6Sm',
+        image: Playlist3
     },
     {
         id: 4,

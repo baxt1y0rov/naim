@@ -61,3 +61,8 @@ img{
       overflow-x: hidden;
     }
 }
+
+::selection{
+  color:#25272e;
+  background-color: #e2b76d;
+}

@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "Hello! My name is Sreerag Rajan. I'm an aspiring web developer based in India.",
-    description2: "I am a student at Masai School, currently learning Fullstack Web-Development. A project that I worked on towards the end of my Master’s in History set me on this path of a web developer. The project involved looking at movies on historical themes that could be considered as an educational tool. The website was not the focus of the project, but working on it was such a thrilling experience that a career in this felt like a right fit. Other than this I am a bibliophile, who not just loves reading books but also buying and maintaining a personal library.",
-    image: 2
+    description1: "Hello! My name is Narziqulov Naimjon Nabi o'g'li",
+    description2: "I was born on October 26, 1996, in Jizzakh, Uzbekistan. I completed my primary and secondary education at the 22nd Gymnasium in Jizzakh. Afterward, I pursued a specialized education in law at the Law Technical College. Later, I furthered my studies in music education at a pedagogical university, where I developed extensive expertise in both the theory and practice of music. Currently, I serve as a music teacher at the Presidential School in Jizzakh. In this role, I not only teach students about music but also strive to nurture their creative abilities, fostering an environment where their talents can flourish. Music is a significant part of my life. In my spare time, I am particularly passionate about playing the rock guitar, a hobby that brings me great joy and allows me to express my artistic side.",
+
 }

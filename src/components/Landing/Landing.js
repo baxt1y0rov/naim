@@ -166,13 +166,13 @@ function Landing() {
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (
                                 <a
-                                    href={headerData.resumePdf}
+                                    href='https://www.youtube.com/@n_AI_m'
                                     download='resume'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Download CV
+                                        My Channel
                                     </Button>
                                 </a>
                             )}
