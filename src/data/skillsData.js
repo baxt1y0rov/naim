@@ -1,10 +1,10 @@
  export const skillsData = [
     'Guitar',
+    'Dutar',
     'Tar',
     'Flute',
     'Drum',
     'Keyboard',
-    'Dutar',
     'Doira',
 ]
 

@@ -16,6 +16,7 @@ import {
     FaInstagram,
     FaGitlab,
     FaMediumM,
+    FaFacebook,
 } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
@@ -323,14 +324,14 @@ function Contacts() {
                                     <FaTwitter aria-label='Twitter' />
                                 </a>
                             )} */}
-                            {socialsData.github && (
+                            {socialsData.facebook && (
                                 <a
-                                    href={socialsData.github}
+                                    href={socialsData.facebook}
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaGithub aria-label='GitHub' />
+                                    <FaFacebook aria-label='GitHub' />
                                 </a>
                             )}
                             {socialsData.linkedIn && (
@@ -353,14 +354,14 @@ function Contacts() {
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
                             )}*/}
-                            {socialsData.medium && (
+                            {socialsData.instagram && (
                                 <a
-                                    href={socialsData.medium}
+                                    href={socialsData.instagram}
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaMediumM aria-label='Medium' />
+                                    <FaInstagram aria-label='Medium' />
                                 </a>
                             )}
                             {/*

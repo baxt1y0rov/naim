@@ -14,6 +14,7 @@ import {
     FaGithub,
     FaYoutube,
     FaBlogger,
+    FaFacebook,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -88,13 +89,13 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.github && (
+                        {socialsData.facebook && (
                             <a
-                                href={socialsData.github}
+                                href={socialsData.facebook}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaGithub
+                                <FaFacebook
                                     className='landing--social'
                                     style={{ color: "#caac78" }}
                                     aria-label='GitHub'
