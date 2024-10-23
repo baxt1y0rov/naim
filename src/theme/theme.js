@@ -111,8 +111,8 @@ export const blueThemeLight = {
     tertiary50: '#21212180',
     aboutimg1: blueThemeboy,
     aboutimg2: blueThemegirl,
-    eduimg: eduBlue,
-    expimg: expBlue,
+    eduimg: eduYellow,
+    expimg: expYellow,
     contactsimg: contactsBlue
 }
 export const blueThemeDark = {
@@ -132,8 +132,8 @@ export const blueThemeDark = {
     tertiary50: '#eaeaea80',
     aboutimg1: blueThemeboy,
     aboutimg2: blueThemegirl,
-    eduimg: eduBlue,
-    expimg: expBlue,
+    eduimg: eduYellow,
+    expimg: eduYellow,
     contactsimg: contactsBlue
 }
 

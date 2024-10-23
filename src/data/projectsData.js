@@ -33,7 +33,7 @@ export const projectsData = [
     {
         id: 3,
         projectName: "🎤 My Students' Performances 🎤",
-        projectDesc: 'This playlist showcases the incredible talent of my students from the Presidential School in Jizzakh. Every week, we bring you new musical performances, ranging from vocal covers to instrumental pieces. Whether it’s classical piano, energetic guitar, or heartfelt vocal performances, each track reflects the dedication and passion of these young artists. Join us as we celebrate their growth and creativity in the world of music! 🎶',
+        projectDesc: 'This playlist showcases the incredible talent of my students from the Presidential School in Jizzakh. Every week, we bring you new musical performances, ranging from vocal covers to instrumental pieces 🎶',
         tags: ['Stay tuned for regular updates and be part of their musical journey!'],
         code: 'https://www.youtube.com/@n_AI_m',
         demo: 'https://www.youtube.com/playlist?list=PLM4b3lmAAgq80fKx76UDI3r98ywvzk6Sm',
